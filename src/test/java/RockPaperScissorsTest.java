@@ -19,7 +19,7 @@ public class RockPaperScissorsTest {
     assertEquals((Integer)1, testGame.checkWinner("paper", "rock"));
   }
   @Test
-  public void checkWinner1_rockBeatsScissorsPlayer2_2() {
+  public void checkWinner_rockBeatsScissorsPlayer2_2() {
     RockPaperScissors testGame = new RockPaperScissors();
     assertEquals((Integer)2, testGame.checkWinner("scissors", "rock"));
   }
